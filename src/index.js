@@ -55,8 +55,8 @@ class App extends Component {
 
         return (
             <div>
-                {/*<SearchBar onSearchTermChange={ videoSearch }  /> /!* This throttles the loading (dont search too often *!/*/}
-                <SearchBar onSearchTermChange={ term => this.videoSearch(term) }  />
+                <SearchBar onSearchTermChange={ videoSearch }  /> {/* This throttles the loading (dont search too often */}
+                {/*<SearchBar onSearchTermChange={ term => this.videoSearch(term) }  />*/}
                 <VideoDetail video={this.state.selectedVideo}/>
                 <VideoList
                     onVideoSelect={selectedVideo => this.setState({ selectedVideo }) }
