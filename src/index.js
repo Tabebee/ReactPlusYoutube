@@ -77,4 +77,3 @@ class App extends Component {
 //  take component's generated HTML and put it on page
 //      (in the DOM)
 ReactDOM.render(<App />, document.querySelector('.container'));
-
